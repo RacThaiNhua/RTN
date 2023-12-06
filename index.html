@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RTN</title>
+    <link rel="stylesheet/less" type="text/css" href="css/style.less" />
+    <link rel="stylesheet/less" type="text/css" href="css/nav.less" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Playball&family=Plus+Jakarta+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <ul id="nav-bar">
+      <img src="src/mt.png" alt="" />
+      <img src="src/symbol.png" alt="" />
+
+      <a class="nav-btn login" href="login.html">
+        <img src="src/login.svg" alt="" />
+      </a>
+      <li><a class="nav-btn" href="#about">NHẬN DIỆN</a></li>
+      <li><a class="nav-btn" href="#about">VỀ CHÚNG TÔI</a></li>
+      <li><a class="nav-btn" href="#hue">THÀNH PHỐ HUẾ</a></li>
+      <li><a class="nav-btn" href="#rtn">RÁC THẢI NHỰA</a></li>
+      <li><a class="nav-btn" href="map/index.html">DỮ LIỆU BẢN ĐỒ</a></li>
+      <li><a class="active nav-btn" href="#home">TRANG CHỦ</a></li>
+    </ul>
+    <div id="home">
+      <div class="left">
+        <h1>
+          CƠ SỞ DỮ LIỆU<br />
+          QUẢN LÝ RÁC THẢI NHỰA<br />
+          THÔNG MINH
+        </h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, aliquam
+          cum quis provident eius vitae? Magnam ipsam velit, id quibusdam
+          cupiditate, aliquam asperiores dolor commodi excepturi officia fugiat
+          enim reiciendis?
+        </p>
+        <button onclick="location.href='#rtn'" type="button">Đọc thêm</button>
+      </div>
+      <img class="main" src="src/main-01.svg" alt="" />
+    </div>
+    <div id="about">
+      <h1>GIỚI THIỆU CHUNG</h1>
+      <p class="sub">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero unde
+        provident corporis officia voluptatem est ea, enim quas!
+      </p>
+      <div class="abt-ava">
+        <div>
+          <img src="src/thu.jpg" alt="" />
+          <h3>ĐẶNG ANH THƯ</h3>
+          <p>
+            Học sinh lớp 10 chuyên Tin trường THPT chuyên Khoa học Huế<br>
+            Phụ trách về thu thập, phân tích CSDL
+          </p>
+        </div>
+        <div>
+          <img src="src/nhu.jpg" alt="" />
+          <h3>PHẠM VÕ QUỲNH NHƯ</h3>
+          <p>
+            Học sinh lớp 10 chuyên Tin trường THPT chuyên Khoa học Huế<br>
+            Phụ trách về nội dung và thống kê CSDL
+          </p>
+        </div>
+        <div>
+          <img src="src/thayTin.jpg" alt="" />
+          <h3>PGS.TS. HOÀNG CÔNG TÍN</h3>
+          <p>
+            Trưởng Khoa Môi trường, trường Đại học Khoa học, Đại học Huế <br>
+            Chuyên ngành Môi trường và Nông nghiệp <br>
+            Cố vấn khoa học của đề tài
+          </p>
+        </div>
+        <div>
+          <img src="src/Bao.jpg" alt="" />
+          <h3>NGUYỄN PHAN NGUYÊN BẢO</h3>
+          <p>
+            Sinh viên khoa Công Nghệ Thông Tin, trường Đại học Khoa học, Đại học Huế <br>
+            Cố vấn kỹ thuật cho đề tài
+          </p>
+        </div>
+      </div>
+    </div>
+    <div id="rtn" class="general">
+      <div class="row1">
+        <div class="svg-2">
+          <h2>
+            BỐI CẢNH<br />
+            Ô NHIỄM RTN
+          </h2>
+        </div>
+        <p>
+          Hàng năm lượng rác thải được thải ra ngoài môi trường rất lớn và hiện
+          nay nó chưa được quản lý rõ ràng nên lượng rác thải nhựa đã gây thất
+          thoát ra ngoài môi trường tự nhiên.. Có hơn 50% là từ đồ nhựa dùng một
+          lần và con số này không hề dừng lại mà nó còn tăng lên mỗi ngày. Vậy
+          lượng rác thải này sẽ đi về đâu nếu không được thu gom và xử lý như
+          tái chế, đốt hay chôn lấp.
+        </p>
+      </div>
+
+      <div class="row2">
+        <p>
+          Mục tiêu của đề tài này là xây dựng một cổng thông tin điện tử tích
+          hợp (web portal) để có thể chia sẻ hiệu quả, phổ biến rộng rãi các dữ
+          liệu, các văn bản pháp lý, tư liệu hóa về các chủ đề trọng tâm liên
+          quan đến quản lý chất thải rắn: có thể đáp ứng các yêu cầu như lưu
+          trữ, cập nhật, xử lý, tích hợ, liên thông, đồng bộ dữ liệu và chia sẻ,
+          phố biến thông tin.
+        </p>
+        <div class="svg-2">
+          <h2>MỤC TIÊU</h2>
+        </div>
+      </div>
+    </div>
+
+    <div class="rtn">
+      <h1>RÁC THẢI NHỰA</h1>
+      <div class="sub">Rác thải nhựa là gì?</div>
+      <div class="rtn-container">
+        <img src="src/plastic.jpg" alt="" />
+        <div class="rtn-cnt">
+          <p>
+            Là cụm từ dùng để chỉ chung những sản phẩm làm bằng nhựa đã qua sử
+            dụng hoặc không được dùng đến, các sản phẩm nhựa sử dụng một lần,
+            sản phẩm nhựa khó thu hồi, khó tái chế,… và bị đem vứt bỏ.
+          </p>
+          <p>
+            Bao gồm: túi nhựa, chai nhựa, cốc nhựa, ống hút nhựa, đồ chơi cũ
+            bằng nhựa… những sản phẩm này có đặc điểm là thời gian phân hủy lâu,
+            có thể lên tới hàng trăm, hàng ngàn năm.
+          </p>
+        </div>
+      </div>
+      <div class="srcc">
+        <p>
+          Theo báo cáo của Liên Hợp Quốc cho biết, mỗi năm tại Việt Nam thải ra:
+          <br />
+          · Khoảng 3,1 triệu tấn rác thải nhựa thải ra môi trường.<br />
+          · Khoảng 0,28 triệu tấn đến 0,73 triệu tấn trong số đó bị thải ra
+          biển.<br />
+          · Khoảng 27% trong số đó được tái chế, tận dụng bởi các cơ sở, doanh
+          nghiệp.<br />
+          Trong đó, rác thải nhựa được phát sinh từ 3 nguồn chính:<br />
+          - Hoạt động sinh hoạt, tiêu dùng<br />
+          - Hoạt động kinh tế - xã hội:<br />
+          - Hoạt động y tế
+        </p>
+        <div class="source">
+          <div class="src1"><h2>NGUỒN GỐC</h2></div>
+          <div class="src2"><img src="src/medical.jpg" alt="" /></div>
+          <div class="src3"><img src="src/kt-xh.jpg" alt="" /></div>
+          <div class="src4"><img src="src/sh.jpg" alt="" /></div>
+        </div>
+      </div>
+      <div class="sub s2">Những tác động của rác thải nhựa</div>
+      <div class="tacdong">
+        <div class="src-col">
+          <h2>Đối với môi trường sống</h2>
+          <img src="src/sh.jpg" alt="" />
+          <p>
+            Những rác thải bị bỏ ra môi trường và xử lý bằng đốt, chôn lấp đó
+            đang gây ra rất nhiều nguy hại cho môi trường. Bên cạnh đó việc chôn
+            lắp rác thải không đúng cách đồng thời làm cho đất không giữ được
+            nước, dinh dưỡng và ngăn cản quá trình khí oxy đi qua đất, gây tác
+            động xấu đến sự sinh trưởng của cây trồng làm cho môi trường khô cằn
+            và thiếu đi bóng mát của cây xanh. -Mặt khác ô nhiễm nguồn nước, đất
+            đa phần là do các rác thải nhựa sinh hoạt hằng ngày của con người
+            chúng ta, gây ra cái chết cho những động vật biển và động vật trên
+            bờ .
+          </p>
+        </div>
+        <div class="src-col">
+          <h2 class="secd">Đối với con người</h2>
+          <img src="src/sh.jpg" alt="" />
+          <p class="seccc">
+            - Hiện nay sức khỏe, tính mạng con người đã và đang bị ảnh hưởng từ
+            các sinh vật, động vật biển khi chúng vô tình nuốt những rác thải
+            nhựa trôi nổi trên bề mặt nước. <br />
+            - Ngoài ra sức khỏe của con người có thể bị đe dọa trong quá trình
+            tạo ra sản phẩm nhựa hay trong quá trình sử dụng nhựa kém chất
+            lượng.<br />
+            - Bên cạnh đó sức khỏe cũng sẽ suy giảm bởi các khí thải, khi đốt
+            rác thải nhựa vì các khí đó dễ dàng xâm nhập vào con người qua các
+            đường hô hấp,…
+          </p>
+        </div>
+      </div>
+    </div>
+    <div id="fr">
+      <img src="src/5R.svg" alt="" />
+    </div>
+    <div id="hue">
+      <h1>THÀNH PHỐ HUẾ</h1>
+      <p class="sub">Thành phố mộng mơ</p>
+      <div class="hue-cnt">
+        <img src="src/hue1.png" alt="" />
+        <p style="line-height: 1.7">
+          - Thành phố Huế thuộc tỉnh Thừa Thiên Huế từng là kinh đô Phú Xuân
+          thời kỳ cận đại Việt Nam từ năm 1802 đến 1945 dưới triều Nguyễn. Thành
+          phố Huế mới có diện tích tự nhiên hơn 265 km2, quy mô dân số trên
+          652.570 người; có 36 đơn vị hành chính, gồm 29 phường, 7 xã và trải
+          dài từ thượng nguồn sông Hương đến tận cửa biển Thuận An.
+          <br />
+          - Thành phố thực hiện các chính sách hỗ trợ, thu hút vốn đầu tư trong
+          và ngoài nước phát triển các khu công nghiệp sạch, đổi mới thiết bị
+          công nghệ để sản xuất hàng hóa có sản phẩm chất lượng, hình thành khu
+          vực sản xuất rau củ quả và sản phẩm chăn nuôi sạch, an toàn <br />
+          - Trong năm 2023, Thừa Thiên Huế đặt ra 15 chỉ tiêu chủ yếu về các
+          lĩnh vực kinh tế, xã hội, môi trường, trong đó phấn đấu tốc độ tăng
+          trưởng GRDP 9-10%; GRDP bình quân đầu người 2.670 – 2.760 USD.
+        </p>
+      </div>
+      <img class="hue2" src="src/hue2.png" alt="" />
+    </div>
+    <div class="action">
+      <h1>HOẠT ĐỘNG TRUYỀN THÔNG NÂNG CAO NHẬN THỨC</h1>
+      <div class="galary">
+        <h2>Hình Ảnh Hoạt động</h2>
+        <h2>Video giáo dục</h2>
+        <div class="gl-left">
+          <div class="gl-column">
+            <img src="src/galery/gl (1).jpg" />
+            <img src="src/galery/gl (2).jpg" />
+            <img src="src/galery/gl (3).jpg" />
+            <img src="src/galery/gl (4).jpg" />
+            <img src="src/galery/gl (5).jpg" />
+            <img src="src/galery/gl (6).jpg" />
+            <img src="src/galery/gl (7).jpg" />
+          </div>
+          <div class="gl-column">
+            <img src="src/galery/gl (8).jpg" />
+            <img src="src/galery/gl (9).jpg" />
+            <img src="src/galery/gl (10).jpg" />
+            <img src="src/galery/gl (11).jpg" />
+            <img src="src/galery/gl (12).jpg" />
+            <img src="src/galery/gl (13).jpg" />
+            <img src="src/galery/gl (14).jpg" />
+            <img src="src/galery/gl (15).jpg" />
+            <img src="src/galery/gl (16).jpg" />
+            <img src="src/galery/gl (24).jpg" />
+          </div>
+          <div class="gl-column">
+            <img src="src/galery/gl (15).jpg" />
+            <img src="src/galery/gl (16).jpg" />
+            <img src="src/galery/gl (17).jpg" />
+            <img src="src/galery/gl (18).jpg" />
+            <img src="src/galery/gl (19).jpg" />
+            <img src="src/galery/gl (20).jpg" />
+            <img src="src/galery/gl (21).jpg" />
+            <img src="src/galery/gl (22).jpg" />
+            <img src="src/galery/gl (23).jpg" />
+          </div>
+        </div>
+        <div class="gl-right">
+          <iframe
+            width="100%"
+            height="300"
+            src="https://www.youtube.com/embed/s246TRl7Q94?si=58wsr_Dvey3kyFUh"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
+          <iframe
+            width="100%"
+            height="300"
+            src="https://www.youtube.com/embed/UzuyAREYIN8?si=NCu_l6DMzZPtL4e_"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
+          <iframe
+            width="100%"
+            height="300"
+            src="https://www.youtube.com/embed/7xGvJMmmcDY?si=a1wFq6k8AwB9jH9N"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
+          <iframe
+            width="100%"
+            height="300"
+            src="https://www.youtube.com/embed/o1Fw8nBuHi0?si=RKrL1m01fRQEt0Ew"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
+          <iframe width="100%" height="300" src="https://www.youtube.com/embed/8x25JWXKGaY?si=23BNrdNq04Q0Q2_2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+
+    <footer id="foot">
+      <div class="cnt1">
+        <div>
+          <img src="src/symbol.png" alt="" />
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+        <div>
+          <ul>
+            <li><h2>LIÊN KẾT</h2></li>
+            <li>
+              <a target="_blank" href="https://monre.gov.vn/"
+                >Bộ Tài nguyên và Môi trường</a
+              >
+            </li>
+            <li>
+              <a target="_blank" href="https://pcd.monre.gov.vn/"
+                >Cục Kiểm soát ô nhiễm môi trường</a
+              >
+            </li>
+            <li>
+              <a target="_blank" href="https://stnmt.thuathienhue.gov.vn/"
+                >Sở Tài nguyên và Môi trường tỉnh Thừa Thiên Huế</a
+              >
+            </li>
+            <li>
+              <a target="_blank" href=""
+                >Khoa Môi trường, Trường Đại học Khoa học, Đại học Huế</a
+              >
+            </li>
+            <li>
+              <a target="_blank" href=""
+                >Trường THPT chuyên Khoa học Huế, trường Đại học Khoa học
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <ul>
+            <li><h2>THAM KHẢO</h2></li>
+            <li><a target="_blank" href="https://dangcongsan.vn/xay-dung-xa-hoi-an-toan-truoc-thien-tai/mot-so-kien-thuc-ve-rac-thai-nhua-614734.html">Link</a></li>
+            <li><a target="_blank" href="https://doanthanhnien.vn/tin-tuc/tuoi-tre-tham-gia-bao-ve-moi-truong/phan-loai-va-tai-che-rac-thai-nhua-dung-cach">Link</a></li>
+            <li><a target="_blank" href="https://kinhtemoitruong.vn/rac-thai-nhua-la-gi-mat-bao-lau-de-rac-thai-nhua-co-the-phan-huy-64982.html">Link</a></li>
+            <li><a target="_blank" href="https://kinhtemoitruong.vn/infographics-van-nan-rac-thai-nhua-voi-he-sinh-thai-bien-64492.html">Link</a></li>
+            <li><a target="_blank" href="https://www.kaggle.com/datasets/techsash/waste-classification-data/code">Link</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="cnt2">
+        <p>
+          © 2023. Bản quyền thuộc về Khoa Môi trường và trường THPT chuyên Khoa
+          học Huế, Trường Đại học Khoa học, Đại học Huế.
+        </p>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/less"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
